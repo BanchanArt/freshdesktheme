@@ -43,7 +43,7 @@
 
       {% if portal.has_solutions and search.current_search_filter == "solutions" %}
         <h3>{{ 'portal_translations.search.filters.solutions' | t }}:</h3>
-        <section class="row fw-category-wrapper box-shadow br-12 mx-0 mt-16 g-0 bg-light">
+        <section class="row fw-category-wrapper box-shadow br-12 mx-0 mt-16 g-0 bg-dark">
           <ul class="fw-no-bullet fw-articles mb-24">
             {% for result in search_results['solution'] %}
               <li>
@@ -65,7 +65,7 @@
 
       {% if portal.has_forums and search.current_search_filter == "topics" %}
       <h3>{{ 'portal_translations.search.filters.topics' | t }}:</h3>
-      <section class="row fw-category-wrapper box-shadow br-12 mx-0 mt-16 g-0 bg-light">
+      <section class="row fw-category-wrapper box-shadow br-12 mx-0 mt-16 g-0 bg-dark">
         <ul class="fw-no-bullet fw-articles mb-24">
           {% for result in search_results['topic'] %}
             <li>
@@ -87,7 +87,7 @@
 
       {% if portal.has_tickets and search.current_search_filter == "tickets" %}
         <h3>{{ 'portal_translations.search.filters.tickets' | t }}:</h3>
-        <section class="row fw-category-wrapper box-shadow br-12 mx-0 mt-16 g-0 bg-light">
+        <section class="row fw-category-wrapper box-shadow br-12 mx-0 mt-16 g-0 bg-dark">
           <ul class="fw-no-bullet fw-articles mb-24">
             {% for result in search_results['ticket'] %}
               <li>

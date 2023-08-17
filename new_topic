@@ -31,7 +31,7 @@
   </section>
 
   <section class="container-fluid pt-32 pb-60">
-    <div class="container fw-wrapper-shadow px-0 bg-light">
+    <div class="container fw-wrapper-shadow px-0 bg-dark">
       <div class="row mx-0 g-0">
         <div class="col-lg-9 fw-content-wrapper mb-16 mb-lg-0">
           <div class="fw-content fw-new-ticket">
@@ -39,7 +39,7 @@
           </div>
         </div>
         <div class="col-lg-3 fw-sidebar-wrapper">
-          <aside class="bg-grey fw-sidebar">
+          <aside class="bg-grey-500-600 fw-sidebar">
             <section class="mb-20">
                <h2 class="mb-12 fs-20 semi-bold">{{ 'portal_translations.forums.similar_topics' | t }}</h2>
                <ul class="fw-no-bullet fw-suggestions-results">

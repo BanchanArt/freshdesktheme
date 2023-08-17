@@ -32,7 +32,7 @@
 
 <div class="fw-fake-div mt-168 d-none"></div>
 
-<section class="container-fluid bg-light pt-32 pb-60">
+<section class="container-fluid bg-dark pt-32 pb-60">
   <div class="container px-0">
     {{ page_message }}
     <div class="row mx-0 g-0 fw-wrapper-shadow">
@@ -108,7 +108,7 @@
                     <div class="px-0">
                       {{ comment | profile_avatar }}
                     </div>
-                    <div class="bg-grey p-12 br-6 w-100">
+                    <div class="bg-grey-500-600 p-12 br-6 w-100">
                       <p class="author-info">
                         <span class="semi-bold">{{ comment.user.name }}</span>
                         <span>{{ 'portal_translations.tickets.said' | t }} {{ comment.created_on | time_ago_info }}</span>

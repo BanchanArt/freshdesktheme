@@ -33,7 +33,7 @@
   </section>
 
   <section class="container-fluid pt-32 pb-60">
-    <div class="container fw-wrapper-shadow px-0 bg-light">
+    <div class="container fw-wrapper-shadow px-0 bg-dark">
       {{page_message}}
       <div class="row mx-0 g-0">
         <div class="col-lg-9 fw-content-wrapper mb-16 mb-lg-0">
@@ -45,7 +45,7 @@
         </div>
 
         <div class="col-lg-3 fw-sidebar-wrapper">
-          <aside class="bg-grey fw-sidebar">
+          <aside class="bg-grey-500-600 fw-sidebar">
             <div class="print mb-20">
              <a href="javascript:print()"><span class="icon-print pe-8"></span>Print</a>
             </div>

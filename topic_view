@@ -41,7 +41,7 @@
   <section class="container-fluid pt-32 pb-60">
     <div class="container px-0">
      {{ page_message }}
-      <div class="row mx-0 g-0 bg-light fw-wrapper-shadow">
+      <div class="row mx-0 g-0 bg-dark fw-wrapper-shadow">
         <div class="col-lg-9 fw-content-wrapper mb-16 mb-lg-0">
           <div class="fw-comments-wrapper line-numbers px-16 px-md-24 py-16">
             <div class="row pb-8 mx-0 g-0">
@@ -89,7 +89,7 @@
                 <div class="px-0">
                   {{ topic.best_answer | profile_avatar }}
                 </div>
-                <div class="bg-grey p-12 br-6 w-100">
+                <div class="bg-grey-500-600 p-12 br-6 w-100">
                   <p class="author-info">
                   <span class="semi-bold">{{ topic.best_answer.user.name }}</span>
                   <span> {{ 'portal_translations.forums.posted' | t }} {{ topic.best_answer.created_on | time_ago_info }} </span>
@@ -138,7 +138,7 @@
                         <div class="px-0">
                           {{ post | profile_avatar }}
                         </div>
-                        <div class="bg-grey p-12 br-6 w-100">
+                        <div class="bg-grey-500-600 p-12 br-6 w-100">
                           <p class="author-info">
                            <span class="semi-bold">{{ post.user.name }}</span>
                            <span>{{ 'portal_translations.forums.posted' | t }} {{ post.created_on | time_ago_info }}</span>
@@ -224,7 +224,7 @@
         </div>
 
         <div class="col-lg-3 fw-sidebar-wrapper">
-          <aside class="bg-grey fw-sidebar">
+          <aside class="bg-grey-500-600 fw-sidebar">
             {% if forum.popular_topics.size > 0 %}
              <section class="mb-20">
                <h2 class="mb-12 fs-20 semi-bold">{{ 'portal_translations.forums.popular_topics' | t }}</h2>
@@ -309,7 +309,7 @@
             <ul class="fw-no-bullet fw-voters-container"></ul>
           </div>
         </div>
-        <div class="modal-footer bg-grey">
+        <div class="modal-footer bg-grey-500-600">
           <button type="button" class="btn fw-secondary-button py-8" data-bs-dismiss="modal">{{ 'portal_translations.cancel' | t }}</button>
         </div>
       </div>
@@ -322,7 +322,7 @@
           <div class="fs-18 semi-bold"><span class="icon-bin"></span> Delete Comment</div>
           <p class="fs-14 mt-12">This post will be deleted permanently. Are you sure?</p>
         </div>
-        <div class="modal-footer justify-content-center bg-grey">
+        <div class="modal-footer justify-content-center bg-grey-500-600">
           <button type="button" class="btn fw-btn-gradient py-8" data-bs-dismiss="modal">Cancel</button>
           <button type="button" class="btn fw-post-delete-confirmation fw-btn-delete py-8">Delete</button>
         </div>

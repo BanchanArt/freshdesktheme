@@ -31,7 +31,7 @@
     <div class="container">
       {{ page_message }}
       {% if portal.my_topics.size > 0 %}
-        <section class="row fw-category-wrapper box-shadow br-12 mx-0 g-0 bg-light">
+        <section class="row fw-category-wrapper box-shadow br-12 mx-0 g-0 bg-dark">
           <div class="col-12 fw-section-heading align-items-center">
             <div class="fw-icon-holder pe-12">
               <span class="icon-category"></span>
@@ -96,7 +96,7 @@
       {% endif %}
       {% for category in portal.forum_categories %}
         {% if category.forums_count > 0 %}
-          <section class="row fw-category-wrapper box-shadow br-12 mx-0 g-0 bg-light">
+          <section class="row fw-category-wrapper box-shadow br-12 mx-0 g-0 bg-dark">
             <div class="col-12 fw-section-heading align-items-center">
               <div class="fw-icon-holder pe-12">
                 <span class="icon-category"></span>

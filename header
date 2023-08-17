@@ -1,5 +1,5 @@
 <header class="container-fluid px-0 fw-nav-wrapper fixed-top">
-  <section class="bg-light container-fluid">
+  <section class="bg-dark container-fluid">
     <div class="container">
       {% element 'link' %}
        {

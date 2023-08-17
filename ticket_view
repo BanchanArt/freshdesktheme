@@ -32,7 +32,7 @@
   <section class="container-fluid pt-32 pb-60">
     <div class="container px-0">
       {{ page_message }}
-      <div class="row mx-0 g-0 bg-light fw-wrapper-shadow">
+      <div class="row mx-0 g-0 bg-dark fw-wrapper-shadow">
         <div class="col-lg-9 fw-content-wrapper mb-16 mb-lg-0">
           <div class="fw-comments-wrapper line-numbers px-16 px-md-24 py-16">
             <div class="row fw-satisfaction-rating">
@@ -128,7 +128,7 @@
                       <div class="px-0">
                         {{ comment | profile_avatar }}
                       </div>
-                      <div class="bg-grey p-12 br-6 w-100">
+                      <div class="bg-grey-500-600 p-12 br-6 w-100">
                         <p class="author-info">
                           <span class="semi-bold">{{ comment.user.name }}</span>
                           <span>{{ 'portal_translations.tickets.said' | t }} {{ comment.created_on | time_ago_info }}</span>

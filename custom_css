@@ -1,0 +1,132 @@
+:root {
+    --main-bg-color: #18181b !important;
+    --second-bg-color: #27272a !important;
+    --main-txt-color: #fafafa !important;
+    --second-txt-color: #a7f3d0 !important;
+    --main-bd-color: #3f3f46 !important;
+    --accent-color: #0f766e !important;
+}
+body {
+    background-color: var(--main-bg-color);
+}
+.bg-dark, .bg-grey {
+    background-color: var(--main-bg-color) !important;
+    color: var(--main-txt-color) !important;
+}
+.fw-wrapper-shadow .fw-content--single-article pre.fd-callout {
+    background-color: var(--main-bg-color);
+    color: var(--main-txt-color);
+}
+.bg-light, .bg-white{
+    --bs-bg-opacity: 1;
+    background-color: var(--second-bg-color) !important;
+}
+.fw-search button,
+.fw-search button:hover {
+    background-color: var(--second-bg-color);
+    border: 1px solid var(--main-bd-color);
+    border-left:none
+}
+h3 {
+    color: var(--second-txt-color);
+}
+.form-select, .form-control, .form-control:focus, .form-check-input, .list-group-item,
+.choices__list--dropdown, .modal-content, .popover, .navbar, .navbar-collapse  {
+    background-color: var(--main-bg-color);
+    color: var(--main-txt-color);
+}
+.dropdown-menu {
+    color:#264966;
+    background-color: var(--second-bg-color);
+    background-clip:padding-box;
+    border:1px solid var(--main-bd-color);
+    border-radius:.25rem
+}
+.btn-check:focus+.btn-light,
+.btn-light,
+.btn-light:focus,
+.btn-light:hover {
+    color: var(--main-txt-color);
+    background-color:  var(--accent-color);
+    border-color: var(--main-bd-color);
+}
+.btn-check:active+.btn-light,
+.btn-check:checked+.btn-light,
+.btn-light.active,
+.btn-light:active,
+.show>.btn-light.cc-dropdown-toggle,
+.show>.btn-light.dropdown-toggle {
+    color: var(--main-txt-color);
+    background-color: var(--accent-color);
+    border-color: var(--main-bd-color);
+}
+.btn-light.disabled,
+.btn-light:disabled {
+    color:#000;
+    background-color: var(--accent-color);
+    border-color: var(--main-bd-color);
+}
+.btn-outline-light {
+    color:#fff;
+    border-color: var(--main-bd-color);
+}
+.btn-outline-light:hover {
+    color: var(--main-txt-color);
+    background-color: var(--accent-color);
+    border-color: var(--main-bd-color);
+}
+.choices__item.is-highlighted{
+    color: var(--main-txt-color);
+    background-color: var(--accent-color);        
+}
+.choices__item--disabled {
+    color: var(--main-txt-color);
+    background-color: #64748b;
+}
+.fw-search .fw-autocomplete-header .fw-search-tab, .fw-autocomplete-focus .fw-clear-all,
+.fw-autocomplete-focus .fw-clear-all:hover {
+    background-color: var(--main-bg-color);
+    color: var(--main-txt-color);
+}
+.fw-loginform-wrapper .fw-form-section .form, .fw-loginform-wrapper .fw-form-section .form .fw-or div span, .fw-wrapper-shadow .fw-content--single-article pre.fd-callout {
+    background-color: var(--main-bg-color);
+    color: var(--main-txt-color);
+}
+.fw-wrapper-shadow .fw-content--single-article .h1,
+.fw-wrapper-shadow .fw-content--single-article .h2,
+.fw-wrapper-shadow .fw-content--single-article .h3,
+.fw-wrapper-shadow .fw-content--single-article .h4,
+.fw-wrapper-shadow .fw-content--single-article .h5,
+.fw-wrapper-shadow .fw-content--single-article .h6,
+.fw-wrapper-shadow .fw-content--single-article h1,
+.fw-wrapper-shadow .fw-content--single-article h2,
+.fw-wrapper-shadow .fw-content--single-article h3,
+.fw-wrapper-shadow .fw-content--single-article h4,
+.fw-wrapper-shadow .fw-content--single-article h5,
+.fw-wrapper-shadow .fw-content--single-article h6 {
+    color: var(--second-txt-color);
+}
+.fw-autocomplete-wrapper {
+    background-color: var(--main-bg-color);
+    color: var(--main-txt-color);
+}
+.fr-highlight-change>.fr-embedly>.embedly-card>.embedly-card-hug>iframe,
+.fr-highlight-change>.fr-video>embed,
+.fr-highlight-change>.fr-video>iframe,
+.fr-highlight-change>.fr-video>video,
+.fr-highlight-change>img,
+.fr-highlight-change>p,
+.fr-view .fr-highlight-change,
+.fr-view .fr-highlight-change>span:not(.fr-tracking-deleted) {
+    color: var(--main-txt-color);
+    background-color: var(--accent-color);
+    opacity:.5
+}
+
+.fr-view .fr-class-highlighted {
+    color: var(--main-txt-color);
+    background-color: var(--accent-color);
+}
+.form-select:disabled {
+    background-color: #64748b;
+}

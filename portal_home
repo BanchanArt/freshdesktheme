@@ -109,7 +109,7 @@
     </section>
   {% endif %}
 
-  <section class="container-fluid px-0 pt-60 pb-44 bg-light">
+  <section class="container-fluid px-0 pt-60 pb-44 bg-dark">
     <div class="container">
     {% if portal.has_solutions %}
       {% assign articles = portal | popular_articles:4 %}

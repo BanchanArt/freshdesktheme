@@ -39,7 +39,7 @@
   <section class="container-fluid px-0 py-24">
     <div class="container">
       {{ page_message }}
-      <section class="row box-shadow br-12 fw-category-wrapper mx-0 g-0 bg-light">
+      <section class="row box-shadow br-12 fw-category-wrapper mx-0 g-0 bg-dark">
         <div class="row mx-0 fw-section-content g-0">
           {% for folder in category.folders %}
               <div class="col-md-6 fw-folder">
